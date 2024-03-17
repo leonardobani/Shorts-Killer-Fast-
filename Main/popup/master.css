@@ -1,0 +1,45 @@
+@font-face {
+  font-family: OpenSans;
+  src: url('/popup/font/OpenSans-Regular.ttf');
+}
+
+body {
+  font-family: OpenSans;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+
+  padding-bottom: 25px;
+  padding: 10px;
+}
+
+.title {
+  text-shadow: #0d6efd;
+  text-decoration: underline 3px #0d6efd;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img{
+  filter: invert(1);
+}
+
+.socialLinks{
+  width: 25px;
+  padding: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline 3px #0d6efd;
+}
+
+code {
+  display: block;
+  font-size: 15px;
+}
